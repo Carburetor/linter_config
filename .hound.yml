@@ -1,0 +1,14 @@
+coffeescript:
+  enabled: true
+  config_file: style/coffeescript/coffeelint.json
+haml:
+  enabled: true
+  config_file: style/haml/haml.yml
+javascript:
+  enabled: false
+ruby:
+  enabled: true
+  config_file: style/ruby/.rubocop.yml
+scss:
+  enabled: true
+  config_file: style/sass/.scss-lint.yml
