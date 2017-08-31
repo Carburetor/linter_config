@@ -391,41 +391,6 @@ Style/WordArray:
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#percent-w'
   Enabled: false
 
-# Layout
-
-Style/AlignParameters:
-  Description: 'Here we check if the parameters on a multi-line method call or definition are aligned.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-double-indent'
-  Enabled: false
-
-Style/DotPosition:
-  Description: 'Checks the position of the dot in multi-line method calls.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#consistent-multi-line-chains'
-  EnforcedStyle: trailing
-
-Style/ExtraSpacing:
-  Description: 'Do not use unnecessary spacing.'
-  Enabled: true
-
-Style/MultilineOperationIndentation:
-  Description: >-
-                 Checks indentation of binary operations that span more than
-                 one line.
-  Enabled: true
-  EnforcedStyle: indented
-
-Style/MultilineMethodCallIndentation:
-  Description: >-
-                 Checks indentation of method calls with the dot operator
-                 that span more than one line.
-  Enabled: true
-  EnforcedStyle: indented
-
-Style/InitialIndentation:
-  Description: >-
-    Checks the indentation of the first non-blank non-comment line in a file.
-  Enabled: false
-
 # Lint
 
 Lint/AmbiguousOperator:
