@@ -393,35 +393,35 @@ Style/WordArray:
 
 # Layout
 
-Layout/AlignParameters:
+Style/AlignParameters:
   Description: 'Here we check if the parameters on a multi-line method call or definition are aligned.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-double-indent'
   Enabled: false
 
-Layout/DotPosition:
+Style/DotPosition:
   Description: 'Checks the position of the dot in multi-line method calls.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#consistent-multi-line-chains'
   EnforcedStyle: trailing
 
-Layout/ExtraSpacing:
+Style/ExtraSpacing:
   Description: 'Do not use unnecessary spacing.'
   Enabled: true
 
-Layout/MultilineOperationIndentation:
+Style/MultilineOperationIndentation:
   Description: >-
                  Checks indentation of binary operations that span more than
                  one line.
   Enabled: true
   EnforcedStyle: indented
 
-Layout/MultilineMethodCallIndentation:
+Style/MultilineMethodCallIndentation:
   Description: >-
                  Checks indentation of method calls with the dot operator
                  that span more than one line.
   Enabled: true
   EnforcedStyle: indented
 
-Layout/InitialIndentation:
+Style/InitialIndentation:
   Description: >-
     Checks the indentation of the first non-blank non-comment line in a file.
   Enabled: false
